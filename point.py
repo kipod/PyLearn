@@ -16,9 +16,11 @@ class Point(object):
 
 for x in range(-3, 4):
     for y in range(-3, 4):
-        if Point(x, y) < Point(y, x):
+        p1 = Point(x, y)
+        p2 = Point(y, x)
+        if p1 < p2:
             print "*",
-        elif Point(x, y):
+        elif p1:
             print ".",
         else:
             print "o",
