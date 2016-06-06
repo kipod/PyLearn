@@ -1,6 +1,5 @@
 *.pyc
 /.project
-/.vscode
 .idea
 *.pdb
 */.svn/
